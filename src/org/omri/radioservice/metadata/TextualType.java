@@ -14,9 +14,9 @@ package org.omri.radioservice.metadata;
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- * 
+ *
  * Textual metadata type definitions
- * 
+ *
  * @author Fabian Sattler, IRT GmbH
  */
 public enum TextualType {
@@ -30,5 +30,5 @@ public enum TextualType {
 	/** Textual metadata received via ID3 parsing **/
 	METADATA_TEXTUAL_TYPE_ID3_TEXT,
 	/** Textual metadata received via Shoutcast ICY parsing **/
-	METADATA_TEXTUAL_TYPE_ICY_TEXT;	
+	METADATA_TEXTUAL_TYPE_ICY_TEXT;
 }
