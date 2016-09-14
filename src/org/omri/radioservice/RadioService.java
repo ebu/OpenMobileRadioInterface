@@ -38,13 +38,13 @@ public interface RadioService {
 	 * Returns the short description of this {@link RadioService} as {@link String} 
 	 * @return The short description of this {@link RadioService} as {@link String}
 	 */
-	public String getShortDescrition();
+	public String getShortDescription();
 
 	/**
 	 * Returns the long description of this {@link RadioService} as {@link String} 
 	 * @return The long description of this {@link RadioService} as {@link String}
 	 */
-	public String getLongDescrition();
+	public String getLongDescription();
 	
     /**
      * Returns the available {@link Visual}s for this {@link RadioService} or an empty list

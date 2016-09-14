@@ -35,8 +35,8 @@ public abstract class Radio {
     private static Radio INSTANCE = new RadioImpl();
     
     /**
-     * Returns the {@link Radio} instance or {@code null} if no implemented {@link Radio} instance is set
-     * @return the {@link Radio} instance or {@code null} if no implemented {@link Radio} instance is set
+     * Returns the {@link Radio} instance or {@code null} if not implemented {@link Radio} instance is set
+     * @return the {@link Radio} instance or {@code null} if not implemented {@link Radio} instance is set
      */
     public static Radio getInstance() {
     	return INSTANCE;

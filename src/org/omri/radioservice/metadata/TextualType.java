@@ -22,13 +22,13 @@ package org.omri.radioservice.metadata;
 public enum TextualType {
 
 	/** Textual metadata received via DAB Dynamic Label service **/
-	MATADATA_TEXTUAL_TYPE_DAB_DLS,
+	METADATA_TEXTUAL_TYPE_DAB_DLS,
 	/** Textual metadata received via RadioDNS RadioVIS Text service **/
-	MATADATA_TEXTUAL_TYPE_RADIODNS_RADIOVIS,
+	METADATA_TEXTUAL_TYPE_RADIODNS_RADIOVIS,
 	/** Textual metadata received via FM Radiotext **/
-	MATADATA_TEXTUAL_TYPE_FM_RDS_RADIOTEXT,
+	METADATA_TEXTUAL_TYPE_FM_RDS_RADIOTEXT,
 	/** Textual metadata received via ID3 parsing **/
-	MATADATA_TEXTUAL_TYPE_ID3_TEXT,
+	METADATA_TEXTUAL_TYPE_ID3_TEXT,
 	/** Textual metadata received via Shoutcast ICY parsing **/
-	MATADATA_TEXTUAL_TYPE_ICY_TEXT;	
+	METADATA_TEXTUAL_TYPE_ICY_TEXT;	
 }
