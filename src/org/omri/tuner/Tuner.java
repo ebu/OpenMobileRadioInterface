@@ -25,7 +25,8 @@ import org.omri.radioservice.RadioService;
 public interface Tuner {
 
 	/**
-	 * Initializes the Tuner. This call is asynchronously. Register a {@link TunerListener} for updates on the {@link TunerStatus}.
+	 * Initializes the Tuner. This call is asynchronous. Register a
+	 * {@link TunerListener} to receive status updates and error notifications.
 	 */
 	public void initializeTuner();
 	

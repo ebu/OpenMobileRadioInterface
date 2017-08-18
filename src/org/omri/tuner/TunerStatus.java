@@ -21,19 +21,19 @@ package org.omri.tuner;
 public enum TunerStatus {
 
 	/** Tuner is not initialized **/
-	STATUS_TUNER_NOT_INITIALIZED(0, "Tuner not initialized"),
+	TUNER_STATUS_NOT_INITIALIZED(0, "Tuner not initialized"),
 	/** Tuner is ready **/
-	STATUS_TUNER_INITIALIZED(1, "Tuner ready"),
+	TUNER_STATUS_INITIALIZED(1, "Tuner ready"),
 	/** Tuner is in an error state **/
-	STATUS_TUNER_ERROR(2, "Tuner is in an error state"),
+	TUNER_STATUS_ERROR(2, "Tuner is in an error state"),
 	/** Tuner is in suspended state **/
-	STATUS_TUNER_SUSPENDED(3, "Tuner is suspended"),
+	TUNER_STATUS_SUSPENDED(3, "Tuner is suspended"),
 	/** Tuner started scan for services **/
-	STATUS_TUNER_SCAN_STARTED(4, "Tuner is scanning for services"),
+	TUNER_STATUS_SCAN_STARTED(4, "Tuner is scanning for services"),
 	/** Tuner is in scanning progress **/
-	STATUS_TUNER_SCANNING(5, "Tuner is scanning for services"),
+	TUNER_STATUS_SCANNING(5, "Tuner is scanning for services"),
 	/** Tuner finished scan for services **/
-	STATUS_TUNER_SCAN_FINISHED(6, "Tuner scan finished");	
+	TUNER_STATUS_SCAN_FINISHED(6, "Tuner scan finished");
 	
 	private final int statusCode;
 	private final String statusDescription;

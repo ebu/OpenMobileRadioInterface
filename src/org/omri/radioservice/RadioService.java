@@ -35,6 +35,12 @@ public interface RadioService {
 	public RadioServiceType getRadioServiceType();
 
 	/**
+	 * Returns the label of this {@link RadioService}
+	 * @return the label of this {@link RadioService}
+	 */
+	public String getServiceLabel();
+
+	/**
 	 * Returns the short description of this {@link RadioService} as {@link String}
 	 * @return The short description of this {@link RadioService} as {@link String}
 	 */
@@ -68,7 +74,7 @@ public interface RadioService {
 	 * Returns the available {@link Location}s for this {@link RadioService} or an empty list
 	 * @return the available {@link Location}s for this {@link RadioService} or an empty list
 	 */
-	public List<Location>getLocations();
+	public List<Location> getLocations();
 
 	/**
 	 * Returns the available keywords for this {@link RadioService} or an empty list

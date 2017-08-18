@@ -31,19 +31,7 @@ public interface Visual {
 	 * @return the type of this visual metadata
 	 */
 	public VisualMimeType getVisualMimeType();
-	
-	/**
-	 * Returns the width of this visual metadata
-	 * @return the width of this visual metadata
-	 */
-	public int getWidth();
-	
-	/**
-	 * Returns the height of this visual metadata
-	 * @return the height of this visual metadata
-	 */
-	public int getHeight();
-	
+
 	/**
 	 * Returns the actual image data
 	 * @return the actual image data

@@ -38,7 +38,7 @@ public interface Group {
 		
 	/**
 	 * Returns the medium name of this {@link Group} as {@link String} 
-	 * @return The medium name  of this {@link Group} as {@link String}
+	 * @return The medium name of this {@link Group} as {@link String}
 	 */
 	public String getMediumName();
 		

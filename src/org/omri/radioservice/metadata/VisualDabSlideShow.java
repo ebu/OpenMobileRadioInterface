@@ -49,6 +49,12 @@ public interface VisualDabSlideShow extends Visual {
 	public Calendar getTriggerTime();
 	
 	/**
+	 * The ExpiryTime
+	 * @return a Calendar for the Expirytime or {@code 'null'} 
+	 */
+	public Calendar getExpiryTime();
+	
+	/**
 	 * Returns the category description of this {@link VisualDabSlideShow}. Only applicable for a DAB Categorized Slideshow (check 'isCategorized()')
 	 * @return the category text or an empty {@link String} if it's not a categorized VisualDabSlideShow
 	 */
@@ -67,8 +73,27 @@ public interface VisualDabSlideShow extends Visual {
 	public URI getLink();
 	
 	/**
-	 * Returns the click through link associated with this {@link VisualDabSlideShow}. Only applicable for for a DAB Categorized Slideshow (check 'isCategorized()')
+	 * Returns the click through link associated with this {@link VisualDabSlideShow}. 
 	 * @return the click through link associated with this {@link VisualDabSlideShow} or an empty {@link String}
 	 */
 	public URI getClickThroughUrl();
+	
+	/**
+	 * Returns the alternative location link associated with this {@link VisualDabSlideShow}.
+	 * @return the alternative location link associated with this {@link VisualDabSlideShow} or an empty {@link String}
+	 */
+	public URI getAlternativeLocationURL();
+
+    /**
+	 * The MOT object Content type of this {@link VisualDabSlideShow}
+	 * @return the Content Type
+	 */
+	public int getContentType();
+	
+	 /**
+	 * The MOT object content subtype of this {@link VisualDabSlideShow}
+	 * @return the content subtype
+	 */
+	public int getContentSubType();
+	
 }

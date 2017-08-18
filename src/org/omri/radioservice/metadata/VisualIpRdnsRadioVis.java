@@ -22,8 +22,8 @@ package org.omri.radioservice.metadata;
 public interface VisualIpRdnsRadioVis extends Visual {
 
 	/**
-	 * Returns the Triggertime as POSIX time (seconds elapsed since 1.1.1970)
-	 * @return the Triggertime as POSIX time
+	 * Returns the trigger time as POSIX time (seconds elapsed since 1.1.1970)
+	 * @return the trigger time as POSIX time
 	 */
 	public long getTriggerTime();
 }

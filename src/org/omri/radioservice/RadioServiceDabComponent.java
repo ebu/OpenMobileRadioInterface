@@ -35,16 +35,10 @@ public interface RadioServiceDabComponent {
 	public boolean isScCaFlagSet();
 	
 	/**
-	 * Returns the {@link RadioServiceDabComponent}s channel id as numerical value
-	 * @return the {@link RadioServiceDabComponent}s channel id as numerical value
+	 * Returns the {@link RadioServiceDabComponent}'s channel ID
+	 * @return the {@link RadioServiceDabComponent}'s channel ID
 	 */
 	public int getScChannelId();
-	
-	/**
-	 * Returns the {@link RadioServiceDabComponent}s channel id as hex-string
-	 * @return the {@link RadioServiceDabComponent}s channel id as hex-string
-	 */
-	public String getScChannelIdString();
 	
 	/**
 	 * Indicates if the DG flag is set
@@ -53,16 +47,10 @@ public interface RadioServiceDabComponent {
 	public boolean isScDgFlagSet();
 	
 	/**
-	 * Returns the {@link RadioServiceDabComponent} id as numerical value
-	 * @return the {@link RadioServiceDabComponent} id as numerical value
+	 * Returns the {@link RadioServiceDabComponent} ID
+	 * @return the {@link RadioServiceDabComponent} ID
 	 */
 	public int getScId();
-	
-	/**
-	 * Returns the {@link RadioServiceDabComponent} id as hex-string
-	 * @return the {@link RadioServiceDabComponent} id as hex-string
-	 */
-	public String getScIdString();
 	
 	/**
 	 * Returns the label for this {@link RadioServiceDabComponent}
@@ -71,16 +59,10 @@ public interface RadioServiceDabComponent {
 	public String getScLabel();
 	
 	/**
-	 * Returns the packetaddress as numerical value
-	 * @return the packetaddress as numerical value
+	 * Returns the packet address
+	 * @return the packet address
 	 */
 	public int getScPacketAddress();
-	
-	/**
-	 * Returns the packetaddress as hex-string
-	 * @return the packetaddress as hex-string
-	 */
-	public String getScPacketAddressString();
 	
 	/**
 	 * Indicates if this {@link RadioServiceDabComponent} is the primary component of this {@link RadioServiceDab}
@@ -89,40 +71,22 @@ public interface RadioServiceDabComponent {
 	public boolean isScPrimary();
 	
 	/**
-	 * Returns the service component id as numerical value
-	 * @return the service component id as numerical value
+	 * Returns the service component ID
+	 * @return the service component ID
 	 */
 	public int getScServiceComponentId();
 	
 	/**
-	 * Returns the service component id as hex-string
-	 * @return the service component id as hex-string
-	 */
-	public String getScServiceComponentIdString();
-	
-	/**
-	 * Returns the Transport Mode (TM) ID as numerical value
-	 * @return the Transport Mode (TM) ID as numerical value
+	 * Returns the Transport Mode (TM) ID
+	 * @return the Transport Mode (TM) ID
 	 */
 	public int getTmId();
 	
 	/**
-	 * Returns the Transport Mode (TM) ID as hex-string
-	 * @return the Transport Mode (TM) ID as hex-string
-	 */
-	public String getTmIdString();
-	
-	/**
-	 * Returns the service component type as numerical value
-	 * @return the service component type as numerical value
+	 * Returns the service component type
+	 * @return the service component type
 	 */
 	public int getScType();
-	
-	/**
-	 * Returns the service component type as hex-string
-	 * @return the service component type as hex-string
-	 */
-	public String getScTypeString();
 	
 	/**
 	 * Returns a list with {@link RadioServiceDabUserApplication}s for this SC

@@ -15,7 +15,7 @@ package org.omri.tuner;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * 
- * Tunertype definition enum
+ * {@link Tuner} type definition enum
  * @author Fabian Sattler
  */
 public enum TunerType {

@@ -47,11 +47,11 @@ public interface RadioServiceDab extends RadioService {
 	public long getEnsembleFrequency();
 	
 	/**
-	 * Returns the label of this {@link RadioServiceDab}
-	 * @return the label of this {@link RadioServiceDab}
+	 * Returns the short label of this {@link RadioServiceDab}
+	 * @return the short label of this {@link RadioServiceDab}
 	 */
-	public String getServiceLabel();
-	
+	public String getShortLabel();
+
 	/**
 	 * Returns the service id as hex-string
 	 * @return the service id as hex-string

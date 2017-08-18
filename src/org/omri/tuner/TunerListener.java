@@ -36,6 +36,12 @@ public interface TunerListener extends RadioListener {
 	public void tunerScanProgress(Tuner tuner, int percentScanned);
 
 	/**
+	 * Tuner has found a service during scanning
+	 * @param foundService the {@link RadioService} which has been found
+	 */
+	public void tunerScanServiceFound(Tuner tuner, RadioService foundService);
+
+	/**
 	 * A {@link RadioService} started
 	 * @param startedRadioService the {@link RadioService} which has started
 	 */
@@ -55,8 +61,8 @@ public interface TunerListener extends RadioListener {
 	public void tunerReceptionStatistics(Tuner tuner, boolean rfLock, int rssi);
 
 	/**
-	 * Implementation and TunerType dependent raw data (e.g. in case of a DAB Tuner raw Fast Information Blocks)
-	 * @param tuner the Tuner from which the raw data was received
+	 * Implementation and {@link TunerType} dependent raw data (e.g. in case of a DAB Tuner raw Fast Information Blocks)
+	 * @param tuner the {@link Tuner} from which the raw data was received
 	 * @param data the raw data
 	 */
 	public void tunerRawData(Tuner tuner, byte[] data);
