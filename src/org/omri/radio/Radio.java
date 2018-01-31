@@ -121,16 +121,4 @@ public abstract class Radio {
      * to use the dedicated method calls in the {@link Tuner} objects. 
 	 */
 	public abstract void stopRadioServiceScan();
-    
-    /**
-     * Initializes a specific {@link Tuner} device. You should listen to status changes with a registered {@link TunerListener}.
-     * @param tuner the {@link Tuner} to initialize
-     */
-    public abstract void initializeTuner(Tuner tuner);
-    
-    /**
-     * Deinitializes a specific {@link Tuner} device
-     * @param tuner the {@link Tuner} to deinit
-     */
-    public abstract void deInitializeTuner(Tuner tuner);
 }

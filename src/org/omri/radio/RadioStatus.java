@@ -20,8 +20,9 @@ package org.omri.radio;
  */
 public enum RadioStatus {
 
-	STATUS_RADIO_RUNNING(0, "Radio is running"),
-	STATUS_RADIO_SUSPENDED(1, "Radio is suspended");
+	STATUS_RADIO_UNINITIALIZED(0, "Radio is running"),
+	STATUS_RADIO_RUNNING(1, "Radio is running"),
+	STATUS_RADIO_SUSPENDED(2, "Radio is suspended");
 	
 	private final int statusCode;
 	private final String statusDescription;

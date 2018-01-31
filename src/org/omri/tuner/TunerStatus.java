@@ -28,12 +28,8 @@ public enum TunerStatus {
 	TUNER_STATUS_ERROR(2, "Tuner is in an error state"),
 	/** Tuner is in suspended state **/
 	TUNER_STATUS_SUSPENDED(3, "Tuner is suspended"),
-	/** Tuner started scan for services **/
-	TUNER_STATUS_SCAN_STARTED(4, "Tuner is scanning for services"),
 	/** Tuner is in scanning progress **/
-	TUNER_STATUS_SCANNING(5, "Tuner is scanning for services"),
-	/** Tuner finished scan for services **/
-	TUNER_STATUS_SCAN_FINISHED(6, "Tuner scan finished");
+	TUNER_STATUS_SCANNING(4, "Tuner is scanning for services");
 	
 	private final int statusCode;
 	private final String statusDescription;
